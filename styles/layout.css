@@ -1,13 +1,14 @@
 body {
   width: 480px;
   margin: auto;
+  
 }
 
 #a.dark, #b.dark, #c.dark, #d.dark, #e.dark, #f.dark, #g.dark, #h.dark, #i.dark {
   background-color: rgb(112, 128, 144);
   color: rgb(255, 255, 255);
+  border: rgb(250, 249, 248) 1px solid;
 }
-
 p {
   position: absolute;
   top: 50%;
@@ -153,6 +154,3 @@ p {
   }
 }
 
-.dark {
-  background-color: rgb(111, 128, 145);
-} 
