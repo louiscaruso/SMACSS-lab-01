@@ -2,6 +2,6 @@
 
 $(function() {
   $("button").click(function() {
-    $("div").toggleClass("dark");
+    $("section").toggleClass("dark");
   });
 });
